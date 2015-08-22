@@ -11,7 +11,8 @@ group :production do
    gem 'pg'
    gem 'rails_12factor'
 end
-
+# Devise user auth, membership plan
+gem "devise", "~> 3.4.1"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
