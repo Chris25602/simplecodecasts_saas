@@ -5,5 +5,9 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
   
   belongs_to :plan       
-  
+  def save_with_marsId
+    #Validate Mars ID
+    self.marsId = customer.id
+    save!
+  end
 end
