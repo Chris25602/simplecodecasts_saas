@@ -13,7 +13,8 @@ group :production do
 end
 # Devise user auth, membership plan
 gem "devise", "~> 3.4.1"
-
+# hiding secret keys
+gem "figaro", '1.0.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # bootstrap -> for styling
