@@ -8,7 +8,7 @@ class User < ActiveRecord::Base
   has_one :profile
   def save_with_marsId
     #Validate Mars ID
-    #self.marsId = customer.id
+
     save!
   end
 end

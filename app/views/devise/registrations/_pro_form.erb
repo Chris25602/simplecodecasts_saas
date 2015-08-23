@@ -23,7 +23,8 @@
 
   <div class="field">
     <%= f.label :marsId %><br />
-    <input type="text" class="form-control">
+    <%= f.text_field :marsId, autocomplete: "off", class: 'form-control' %>
+    <p>if you don't know just give us a call <a href='#'>(612)555-55555</a></p>
   </div>
   <br />
   <div class="actions form-group">
