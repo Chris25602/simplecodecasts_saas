@@ -3,6 +3,7 @@
   h3 {
     margin-top: 0;
   }
+
 }
 .well.profile-description {
   background-color: #5cb85c;
@@ -11,4 +12,10 @@
 .well.contact-info {
   background-color: #5bc0de;
   border-color: #46b8da;
+}
+.pic {
+	border-radius: 50%;
+	-webkit-box-shadow: 12px 12px 66px -19px rgba(0,0,0,0.67);
+	-moz-box-shadow: 12px 12px 66px -19px rgba(0,0,0,0.67);
+	box-shadow: 12px 12px 66px -19px rgba(0,0,0,0.67);
 }
