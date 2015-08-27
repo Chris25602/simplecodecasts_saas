@@ -6,7 +6,7 @@ class User < ActiveRecord::Base
   
   belongs_to :plan 
   has_one :profile
-  has_one :report
+  has_many :report
   def save_with_marsId
     #Validate Mars ID
 

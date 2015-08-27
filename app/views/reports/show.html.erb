@@ -1,0 +1,28 @@
+<div class="row">
+	<h1 class="center-text">Choose your data Headers.</h1>
+	<div class="col-md-6 well">
+		
+	<%= form_tag("/create", method: "POST") do %>	
+		<%= check_box_tag "Header val 1" %>
+		<%= label_tag "Header Value one" %>
+		<br />
+		<%= check_box_tag "Header val 2" %>
+		<%= label_tag "Header Value two" %>
+		<br />
+		<%= check_box_tag "Header val 3" %>
+		<%= label_tag "Header Value three" %>
+		<br />
+		<%= check_box_tag "Header val 4" %>
+		<%= label_tag "Header Value four" %>
+		<br />
+		<%= check_box_tag "Header val 5" %>
+		<%= label_tag "Header Value five" %>
+		<br />
+		<%= check_box_tag "Header val 1" %>
+		<%= label_tag "Header Value six" %>
+		<br />
+		<%= text_field_tag "search", nil, :placeholder => 'Name you report to save' %>
+		<%= submit_tag("View Report") %>
+	<% end %>
+	</div>
+</div>
