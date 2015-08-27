@@ -2,7 +2,7 @@
 	<h1 class="center-text">Choose your data Headers.</h1>
 	<div class="col-md-6 well">
 		
-	<%= form_tag("/create", method: "POST") do %>	
+	<%= form_tag(user_report_path, method: "POST") do %>	
 		<%= check_box_tag "Header val 1" %>
 		<%= label_tag "Header Value one" %>
 		<br />
